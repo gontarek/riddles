@@ -16,7 +16,6 @@ def get_max_profit(stock):
             vmin = price
         if(vmin != vmax): 
             profit = vmax-vmin
-            print('profit:', profit)
         if profit > max_profit:
             max_profit = profit
     return max_profit
